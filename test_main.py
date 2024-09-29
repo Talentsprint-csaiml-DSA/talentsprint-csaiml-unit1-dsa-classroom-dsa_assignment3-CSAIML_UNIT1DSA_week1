@@ -1,7 +1,7 @@
-def test_Fibono():
-    from main import Fibono
+def test_huffman_coding():
+    from main import huffman_coding
 
-    assert Fibono(5) == 5
+    assert huffman_coding('hello') == '1111100010'
 
 
 
